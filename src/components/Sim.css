@@ -1,0 +1,27 @@
+.sim-container {
+  @apply flex justify-center;
+}
+
+.component {
+  @apply flex flex-col items-center text-xl;
+}
+
+.component span {
+  @apply text-blue-600 text-3xl;
+}
+
+.component + .component {
+  @apply ml-24;
+}
+
+.sim-actions {
+  @apply flex justify-center mt-8;
+}
+
+.sim-actions button + button {
+  @apply ml-4;
+}
+
+.sim-history {
+  @apply mt-8;
+}
